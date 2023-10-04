@@ -1,0 +1,14 @@
+function listIps ()
+{
+  output=$(cat /var/log/apache2/access.log | grep '200') 
+  echo "$output" >> "/home/kaiden/CSI-230/Week6/clientIPs.txt"
+}
+
+#listIps
+function getVisitors ()
+{
+ output=$(cat /var/log/apache2/access.log | grep '200' | grep $(date +"%d/%b/%Y") | grep -o -E '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' | sort | uniq -c)
+  echo "$output"
+}
+getVisitors
+#function badClients
