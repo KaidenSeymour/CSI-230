@@ -1,0 +1,9 @@
+"EventID","MachineName","Data","Index","Category","CategoryNumber","EntryType","Message","Source","ReplacementStrings","InstanceId","TimeGenerated","TimeWritten","UserName","Site","Container"
+"7040","DESKTOP-U1AUJ87","System.Byte[]","1356","(0)","0","Information","The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start.","Service Control Manager","System.String[]","1073748864","10/18/2023 1:43:19 PM","10/18/2023 1:43:19 PM","NT AUTHORITY\SYSTEM",,
+"1","DESKTOP-U1AUJ87","System.Byte[]","1355","(5)","5","Information","Possible detection of CVE: 2023-10-18T17:41:19.013794000Z
+Additional Information: 2023-10-18T17:41:19.013563400Z
+
+This Event is generated when an attempt to exploit a known vulnerability (2023-10-18T17:41:19.013794000Z) is detected.
+This Event is raised by a User mode process.
+","Microsoft-Windows-Kernel-General","System.String[]","1","10/18/2023 1:41:19 PM","10/18/2023 1:41:19 PM","NT AUTHORITY\LOCAL SERVICE",,
+"35","DESKTOP-U1AUJ87","System.Byte[]","1354","(0)","0","Information","The time service is now synchronizing the system time with the time source time.windows.com,0x9 (ntp.m|0x9|0.0.0.0:123->168.61.215.74:123) with reference id 1255620008. Current local stratum number is 4.","Microsoft-Windows-Time-Service","System.String[]","35","10/18/2023 1:41:19 PM","10/18/2023 1:41:19 PM","NT AUTHORITY\LOCAL SERVICE",,
